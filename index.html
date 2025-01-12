@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Watch Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeCraft - Luxury Watches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome to My Watch Store</h1>
-    <p>We sell amazing hand watches!</p>
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="logo">TimeCraft</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TimeCraft</h1>
+            <p>Discover the elegance of time with our luxury watches.</p>
+            <a href="#products" class="btn">Explore Watches</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At TimeCraft, we bring you the finest collection of luxury watches that combine style, precision, and craftsmanship.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/watch1.jpg" alt="Watch 1">
+                <h3>Classic Elegance</h3>
+                <p>₹15,000</p>
+            </div>
+            <div class="product-card">
+                <img src="images/watch2.jpg" alt="Watch 2">
+                <h3>Modern Edge</h3>
+                <p>₹20,000</p>
+            </div>
+            <div class="product-card">
+                <img src="images/watch3.jpg" alt="Watch 3">
+                <h3>Sporty Vibes</h3>
+                <p>₹18,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TimeCraft. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
